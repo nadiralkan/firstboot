@@ -1,1 +1,1 @@
-web: java -jar target/firstboot.jar
+worker: java -jar target/firstboot.jar

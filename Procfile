@@ -1,1 +1,2 @@
-web: java -jar -Dserver.port=$PORT target/firstboot.jar
+web: java -jar target/firstboot.jar
+--server.port=$PORT

@@ -1,1 +1,1 @@
-worker: java -jar target/firstboot.jar
+web: java -jar -Dserver.port=$PORT target/firstboot.jar

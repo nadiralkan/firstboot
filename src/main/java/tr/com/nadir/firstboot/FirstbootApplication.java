@@ -15,6 +15,6 @@ public class FirstbootApplication {
   }
   @RequestMapping(value = "/")
   public String hello() {
-    return "Hello guest, server time:" + new Date();
+    return "Hello! Server time:" + new Date();
   }
 }
